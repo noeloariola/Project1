@@ -31,6 +31,7 @@ public class GitServlet extends HttpServlet {
 		// new commit line
 		out.print("<h1 align='center'>Hello Git...</h1>");
 		
+		out.print("<h2>New Title</h2>");
 		out.print("</body>");
 		out.print("</html>");
 		out.flush();
