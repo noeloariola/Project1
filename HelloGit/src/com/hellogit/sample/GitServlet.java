@@ -27,7 +27,10 @@ public class GitServlet extends HttpServlet {
 		response.setContentType("text/html");
 		out.print("<html>");
 		out.print("<body>");
+		
+		// new commit line
 		out.print("<h1 align='center'>Hello Git...</h1>");
+		
 		out.print("</body>");
 		out.print("</html>");
 		out.flush();
